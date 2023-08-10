@@ -1,7 +1,7 @@
 import 'package:aboba/presentation/themes/theme.dart';
 import 'package:flutter/material.dart';
 
-import 'presentation/screens/profile_form.dart';
+import 'presentation/screens/recover.dart';
 
 
 void main() {
@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       theme: ThemeApp.get(),
-      home: const ProfilePage(),
+      home: const RecoverPage(),
     );
   }
 }
