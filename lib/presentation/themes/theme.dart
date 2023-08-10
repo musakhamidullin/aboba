@@ -10,6 +10,11 @@ class ThemeApp {
 
   static SizedBox paddingWidget = const SizedBox(height: 16, width: 16);
 
+  static SizedBox dividedByTwoPaddingWidget = const SizedBox(height: 8, width: 8);
+
+
+  static SizedBox doublePaddingWidget = const SizedBox(height: 32, width: 32);
+
   static ThemeData get() {
     return ThemeData(
         elevatedButtonTheme: const ElevatedButtonThemeData(

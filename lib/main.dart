@@ -1,8 +1,7 @@
-import 'package:aboba/application/routes.dart';
+import 'package:aboba/presentation/themes/theme.dart';
 import 'package:flutter/material.dart';
 
-import 'presentation/themes/theme.dart';
-
+import 'presentation/screens/profile_form.dart';
 
 
 void main() {
@@ -14,12 +13,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(
+    return  MaterialApp(
       theme: ThemeApp.get(),
-      routerConfig: AppRouter().config(),
-      builder: (context, child) {
-        return child!;
-      },
+      home: const ProfilePage(),
     );
   }
 }

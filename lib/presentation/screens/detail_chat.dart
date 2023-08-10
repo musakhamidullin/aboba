@@ -34,6 +34,7 @@ class _DetailChatPageState extends State<DetailChatPage> {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       appBar: AppBar(
         actions: [const Icon(Icons.more_vert), ThemeApp.paddingWidget],
         title: Column(
