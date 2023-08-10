@@ -1,7 +1,8 @@
 import 'package:aboba/presentation/themes/theme.dart';
 import 'package:flutter/material.dart';
 
-import 'presentation/screens/recover.dart';
+
+import 'presentation/screens/search_weather.dart';
 
 
 void main() {
@@ -15,7 +16,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       theme: ThemeApp.get(),
-      home: const RecoverPage(),
+      home: const SearchWeatherPage(),
     );
   }
 }
